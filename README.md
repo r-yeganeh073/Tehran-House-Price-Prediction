@@ -65,12 +65,4 @@ loaded_model  = joblib.load("house_price_model_scaled.pkl")
 sample_scaled = loaded_scaler.transform(sample)
 pred = loaded_model.predict(sample_scaled)
 
-predictions_output_scaled.csv
-
----
-
-وقتی ذخیره کردی بگو:
-
-### ✔️ README ساخته شد
-
-تا بریم مرحله بعد: آپلود همه فایل‌ها در GitHub.
+predictions_output_scaled.csv.
